@@ -1,0 +1,22 @@
+header {
+    display: flex;
+    top: 0vh;
+    width: 98vw;
+    height: 10vh;
+    background-color: bisque;
+    justify-content: center;
+    position: sticky;
+    margin-top: 0;
+}
+
+img {
+    width: 7vw;
+    top: 0;
+    margin-top: -14vh;
+    position: sticky;
+    margin-left: 1vw;
+}
+
+div {
+    height: 200vh;
+}
