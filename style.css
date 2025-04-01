@@ -2,7 +2,7 @@
 
 header {
     display: flex;
-    top: 1vh;
+    top: 0vh;
     height: 12vh;
     background-image: url("img/logo.png");
     justify-content: center;
@@ -13,7 +13,10 @@ header {
     background-color: rgb(204, 200, 200);
 }
 
-
+.image {
+    width: 100vw;
+    justify-content: center;
+}
 .info {
     margin-top: 5vh;
     display: flex;
@@ -25,6 +28,13 @@ header {
     border-radius: 10px;
 }
 
+.container {
+    display: flex;
+    margin: 5vh;
+
+}
+
 #map {
-    width: 40vw;
+    width: 30vw;
+    height: 30vh;
 }
